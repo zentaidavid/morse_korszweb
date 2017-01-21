@@ -1,0 +1,29 @@
+{
+  "name": "morse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./tests --recursive",
+    "dev": "nodemon index.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentaidavid/morse_korszweb.git"
+  },
+  "author": "zentaidavid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "homepage": "https://github.com/zentaidavid/morse_korszweb#readme",
+  "description": ""
+}
